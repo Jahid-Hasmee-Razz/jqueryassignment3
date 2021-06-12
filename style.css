@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: rgba(0, 0, 0, .6);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  margin: auto;
+  padding: 30px;
+  color: #fff;
+  margin-top: 50px;
+  display: none;
+
+}
+
+.container {
+  width: 400px;
+  height: 150px;
+  background: #fff;
+  margin: auto;
+}
+
+#flip {
+  padding: 5px;
+  background: #555555;
+  color: #fff;
+  cursor: pointer;
+  border-bottom: 1px solid #cecece;
+
+}
+
+#panel {
+  background: #555;
+  color: #fff;
+  padding: 52px;
+  display: none;
+
+}
